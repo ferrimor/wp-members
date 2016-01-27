@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: WP-Members 2.9.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-members\n"
 "POT-Creation-Date: 2014-07-08 10:47-0600\n"
-"PO-Revision-Date: 2014-07-22 12:01-0600\n"
-"Last-Translator: \n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-01-25 20:04+0100\n"
+"Last-Translator: Mario Ferrari <mariferra@gmail.com>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.8.6\n"
+"Language-Team: \n"
 
 #: admin/admin.php:60 admin/admin.php:129
 msgid "Settings"
@@ -136,8 +136,8 @@ msgid ""
 "under \"WP-Members Dialogs and Error Messages.\"  You should change this "
 "message to let users know they are pending approval."
 msgstr ""
-"Ma non hai cambiato il messaggio iniziale \" registrazione completata\" nei "
-"dialoghi e messaggi di errore di WP-Members . Si deve cambiare questo "
+"ma non hai cambiato il messaggio predefinito per \"Registrazione completata"
+"\" nei dialoghi e messaggi di errore di WP-Members . Si deve cambiare questo "
 "messaggio in modo da far sapere agli utenti che sono in attesa di "
 "approvazione."
 
@@ -187,7 +187,7 @@ msgstr "Aggiorna Utente"
 
 #: admin/dialogs.php:174
 msgid "FAQs"
-msgstr ""
+msgstr "Domande Frequenti"
 
 #: admin/dialogs.php:181
 #, fuzzy
@@ -196,7 +196,7 @@ msgstr "Grazie per utilizzare WP-Members! Si sta usando la versione %s"
 
 #: admin/dialogs.php:182
 msgid "A plugin developed by"
-msgstr ""
+msgstr "Un plugin sviluppato da"
 
 #: admin/dialogs.php:183
 msgid "Follow"
@@ -204,11 +204,11 @@ msgstr "Segui"
 
 #: admin/dialogs.php:200 admin/dialogs.php:204
 msgid "Latest from RocketGeek"
-msgstr ""
+msgstr "Novità da RocketGeek"
 
 #: admin/dialogs.php:221 admin/dialogs.php:234
 msgid "Latest from ButlerBlog"
-msgstr ""
+msgstr "Novità da ButlerBlog"
 
 #: admin/post.php:36 admin/post.php:38
 #, fuzzy
@@ -217,7 +217,7 @@ msgstr "Preimposta Blocco Articoli "
 
 #: admin/post.php:37 admin/post.php:39
 msgid "Unblock"
-msgstr ""
+msgstr "Sblocca"
 
 #: admin/post.php:120
 #, fuzzy, php-format
@@ -251,7 +251,7 @@ msgstr ""
 #: admin/tab-captcha.php:35 admin/tab-dialogs.php:44 admin/tab-emails.php:113
 #: admin/tab-fields.php:45 admin/tab-options.php:37
 msgid "Need help?"
-msgstr ""
+msgstr "Bisogno di aiuto?"
 
 #: admin/tab-captcha.php:46
 msgid "Manage reCAPTCHA Options"
@@ -264,7 +264,7 @@ msgid ""
 msgstr "reCAPTCHA "
 
 #: admin/tab-captcha.php:61
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "reCAPTCHA asks commenters to retype two words scanned from a book to prove "
 "that they are a human. This verifies that they are not a spambot while also "
@@ -272,11 +272,10 @@ msgid ""
 "world gets accurately digitized books. Everybody wins! For details, visit "
 "the %s reCAPTCHA website%s"
 msgstr ""
-"reCAPTCHA chiede all'utente di riscriveredue parole precedemente "
-"digitalizate da libri e altri scritti, per poter dimostrare la reale "
-"presenza di un utente. Questo permette non solo di evitare lo SPAM eseguito "
-"da programmi automatici, ma anche di migliorare la digitalizzazione di libri "
-"e antichi scritti. Per maggiori dettagli visitate il sito %s reCAPTCHA %"
+"reCAPTCHA chiede di riscrivere due parole estratte da un libro, per "
+"dimostrare di essere umano. Questo permette non solo di evitare lo SPAM "
+"eseguito da programmi automatici, ma anche di migliorare la digitalizzazione "
+"dei testi. Per maggiori dettagli visitate il sito %s reCAPTCHA %s"
 
 #: admin/tab-captcha.php:66
 msgid "reCAPTCHA Keys"
@@ -326,9 +325,8 @@ msgid "Characters for image"
 msgstr "Tipo di Campo"
 
 #: admin/tab-captcha.php:116
-#, fuzzy
 msgid "Number of characters"
-msgstr "Mostra Estratto"
+msgstr "Numero caratteri"
 
 #: admin/tab-captcha.php:120
 #, fuzzy
@@ -337,7 +335,7 @@ msgstr "Tipo di Campo"
 
 #: admin/tab-captcha.php:124
 msgid "Font color of characters"
-msgstr ""
+msgstr "Colore dei caratteri"
 
 #: admin/tab-captcha.php:128
 #, fuzzy
@@ -346,11 +344,11 @@ msgstr "Tipo di Campo"
 
 #: admin/tab-captcha.php:132
 msgid "Font size"
-msgstr ""
+msgstr "Dimensione caratteri"
 
 #: admin/tab-captcha.php:136
 msgid "Width between characters"
-msgstr ""
+msgstr "Spazio tra caratteri"
 
 #: admin/tab-captcha.php:140
 #, fuzzy
@@ -362,6 +360,8 @@ msgid ""
 "To use Really Simple CAPTCHA, you must have the Really Simple CAPTCHA plugin "
 "installed and activated."
 msgstr ""
+"Per usare Really Simple CAPTCHA, è necessario che il plugin Really Simple "
+"CAPTCHA sia installato e attivato."
 
 #: admin/tab-captcha.php:166
 #, fuzzy
@@ -385,7 +385,7 @@ msgstr "Il nome é già presente"
 
 #: admin/tab-dialogs.php:31
 msgid "Email is registered"
-msgstr "Questa email é già presente"
+msgstr "Email già registrata"
 
 #: admin/tab-dialogs.php:32
 msgid "Registration completed"
@@ -406,12 +406,11 @@ msgstr "Cambio Password"
 #: admin/tab-dialogs.php:36
 msgid "Username or email do not exist when trying to reset forgotten password"
 msgstr ""
-"Cercando di cambiare la ppassword dimenticata, non esiste il nome utente o "
-"la passord."
+"Nome o Email inesistente, durante il ripristino della password dimenticata"
 
 #: admin/tab-dialogs.php:37
 msgid "Password reset"
-msgstr "Azzera la password"
+msgstr "Reimposta password"
 
 #: admin/tab-dialogs.php:54
 msgid "Dialogs and Error Messages"
@@ -424,7 +423,7 @@ msgid ""
 "allowed %s etc."
 msgstr ""
 "Puoi personalizzare il testo dei dialoghi e dei messaggi di errore.\n"
-"Si può usare codice HTML %s etc."
+"Si può usare semplice codice HTML %s etc."
 
 #: admin/tab-dialogs.php:69
 msgid "Terms of Service (TOS)"
@@ -452,7 +451,7 @@ msgstr "La registrazione é Moderata. L'Utente é Approvato."
 
 #: admin/tab-emails.php:40
 msgid "Password Reset"
-msgstr "Azzera la Password"
+msgstr "Reimposta password"
 
 #: admin/tab-emails.php:45
 msgid "Admin Notification"
@@ -520,7 +519,7 @@ msgstr ""
 
 #: admin/tab-fields.php:184
 msgid "A field with that option name already exists"
-msgstr ""
+msgstr "Esiste già un campo con questo nome"
 
 #: admin/tab-fields.php:201
 #, fuzzy
@@ -530,9 +529,8 @@ msgstr ""
 "aggiornamento eseguito."
 
 #: admin/tab-fields.php:223
-#, fuzzy
 msgid "field was added"
-msgstr "ENome del campo"
+msgstr "Nome del campo"
 
 #: admin/tab-fields.php:241
 #, fuzzy
@@ -551,11 +549,11 @@ msgstr "Aggiungi/Rimuovi"
 
 #: admin/tab-fields.php:295 admin/tab-fields.php:416
 msgid "Field Label"
-msgstr "ENome del campo"
+msgstr "Nome del campo"
 
 #: admin/tab-fields.php:297
 msgid "The name of the field as it will be displayed to the user."
-msgstr ""
+msgstr "Nome del campo come visualizzato all'utente."
 
 #: admin/tab-fields.php:300 admin/tab-fields.php:417
 msgid "Option Name"
@@ -565,7 +563,7 @@ msgstr "Nome Opzione"
 msgid ""
 "The database meta value for the field. It must be unique and contain no "
 "spaces (underscores are ok)."
-msgstr ""
+msgstr "Meta valore del campo. Deve essere unico e non può contenere spazi."
 
 #: admin/tab-fields.php:310 admin/tab-fields.php:418
 msgid "Field Type"
@@ -589,7 +587,7 @@ msgstr "menù a tendina"
 
 #: admin/tab-fields.php:320
 msgid "password"
-msgstr "password"
+msgstr "Password"
 
 #: admin/tab-fields.php:325 admin/tab-fields.php:419
 msgid "Display?"
@@ -774,7 +772,7 @@ msgstr "Registrazione comletata."
 
 #: admin/tab-options.php:60
 msgid "Removes the registration form from blocked content"
-msgstr ""
+msgstr "Cancella la registrazione dal contenuto protetto"
 
 #: admin/tab-options.php:62
 msgid "Time-based expiration"
@@ -803,12 +801,14 @@ msgstr ""
 
 #: admin/tab-options.php:81
 msgid "Attribution"
-msgstr ""
+msgstr "Attribuzione"
 
 #: admin/tab-options.php:83
 msgid ""
 "Attribution is appreciated!  Display \"powered by\" link on register form?"
 msgstr ""
+"L'attribuzione è apprezzata! Mostra il link \"potenziato da\" nel modulo "
+"registrazione?"
 
 #: admin/tab-options.php:87
 #, fuzzy
@@ -820,8 +820,8 @@ msgstr "Mostra Estratto"
 msgid "Number of words in excerpt:"
 msgstr "Mostra Estratto"
 
-#: admin/tab-options.php:88 admin/tab-options.php:108
-#: admin/tab-options.php:118 admin/tab-options.php:132
+#: admin/tab-options.php:88 admin/tab-options.php:108 admin/tab-options.php:118
+#: admin/tab-options.php:132
 msgid "Optional"
 msgstr "Optionale"
 
@@ -837,7 +837,7 @@ msgstr "Aggiorna Utente"
 
 #: admin/tab-options.php:106
 msgid "For creating a forgot password link in the login form"
-msgstr ""
+msgstr "Per creare un link a password dimenticata nel modulo di login"
 
 #: admin/tab-options.php:113
 #, fuzzy
@@ -846,11 +846,11 @@ msgstr "Indirizzo della pagina di registrazione"
 
 #: admin/tab-options.php:116
 msgid "For creating a register link in the login form"
-msgstr ""
+msgstr "Per creare un link alla registrazione nel modulo di login"
 
 #: admin/tab-options.php:126
 msgid "Select a stylesheet or specify a custom stylesheet below"
-msgstr ""
+msgstr "Scegli uno stile o specificane uno personalizzato qui sotto"
 
 #: admin/tab-options.php:131
 #, fuzzy
@@ -863,7 +863,7 @@ msgstr "Aggiorna Impostazioni"
 
 #: admin/tab-options.php:246
 msgid "WP-Members settings were updated"
-msgstr "Le impostazioni di WP-Members sono state aggiornate"
+msgstr "Impostazioni di WP-Members aggiornate"
 
 #: admin/tab-options.php:296
 #, fuzzy
@@ -872,7 +872,7 @@ msgstr "Nuova Registrazione"
 
 #: admin/tab-options.php:304
 msgid "USE CUSTOM URL BELOW"
-msgstr ""
+msgstr "USARE URL PERSONALIZZATA"
 
 #: admin/user-export.php:57 admin/user-export.php:172
 msgid "Activated?"
@@ -901,7 +901,7 @@ msgstr "Campi Aggiuntivi WP-Members"
 #: admin/user-profile.php:66 native-registration.php:36
 #: native-registration.php:159 users.php:62
 msgid "(required)"
-msgstr "Obbligatorio?"
+msgstr "(obbligatorio)"
 
 #: admin/user-profile.php:98
 msgid "Activate this user?"
@@ -924,14 +924,12 @@ msgid "Export"
 msgstr "Esporta"
 
 #: admin/users.php:50 admin/users.php:91
-#, fuzzy
 msgid "Export All Users"
-msgstr "Esporta"
+msgstr "Esporta tutti gli utenti"
 
 #: forms.php:95
-#, fuzzy
 msgid "Existing Users Log In"
-msgstr "Entra"
+msgstr "Connetti utente registrato"
 
 #: forms.php:161 wp-members-dialogs.php:192
 msgid "Change Password"
@@ -947,11 +945,11 @@ msgstr "Azzera la password dimenticata"
 
 #: forms.php:403
 msgid "Forgot password?"
-msgstr "Dimenticata la password?"
+msgstr "Dimenticata?"
 
 #: forms.php:403
 msgid "Click here to reset"
-msgstr "Premi qui per azzerare"
+msgstr "Reimposta"
 
 #: forms.php:418
 msgid "New User?"
@@ -959,7 +957,7 @@ msgstr "Nuovo utente?"
 
 #: forms.php:418
 msgid "Click here to register"
-msgstr "Premi qui per la registrazione"
+msgstr "Registrazione"
 
 #: forms.php:515
 msgid "Required field"
@@ -985,13 +983,12 @@ msgid "Please indicate that you agree to the %s TOS %s"
 msgstr "Indicare l'accettazione delle condizioni di servizio %s TOS %s"
 
 #: forms.php:852
-#, fuzzy
 msgid "New User Registration"
-msgstr "Nuovo utente?"
+msgstr "Registrazione nuovo utente?"
 
 #: forms.php:1018
 msgid "Input the code:"
-msgstr ""
+msgstr "Inserire codice:"
 
 #: users.php:38
 #, fuzzy
@@ -1076,7 +1073,7 @@ msgstr "Il nome non può includere caratteri non alfanumerici."
 
 #: wp-members-register.php:112 wp-members-register.php:282
 msgid "You must enter a valid email address."
-msgstr "Si deve inserire un pezzo email valido."
+msgstr "Devi inserire un indirizzo email valido."
 
 #: wp-members-register.php:119
 #, fuzzy
@@ -1125,7 +1122,7 @@ msgstr "Il server reCAPTCHA non risponde. Per favore riprova."
 
 #: wp-members-register.php:405
 msgid "You have entered an incorrect code value. Please try again."
-msgstr ""
+msgstr "Hai introdotto un codice scorretto. Riprova."
 
 #: wp-members-sidebar.php:117
 msgid "Login Failed!<br />You entered an invalid username or password."
@@ -1133,9 +1130,8 @@ msgstr ""
 "Accesso fallito!<br /> è stato immesso un nome o una password sbagliata."
 
 #: wp-members-sidebar.php:118
-#, fuzzy
 msgid "You are not logged in."
-msgstr "Sei connesso come %s"
+msgstr "Non connesso."
 
 #: wp-members-sidebar.php:169
 msgid "log in"
@@ -1143,7 +1139,7 @@ msgstr "Accedi"
 
 #: wp-members-sidebar.php:180
 msgid "Forgot?"
-msgstr "Dimenticato?"
+msgstr "Dimenticata?"
 
 #: wp-members-sidebar.php:247
 msgid "click here to log out"
@@ -1151,11 +1147,11 @@ msgstr "Premi qui per disconnettere"
 
 #: wp-members-sidebar.php:279
 msgid "Displays the WP-Members sidebar login."
-msgstr ""
+msgstr "Mostra il login di WP-Members nella barra laterale."
 
 #: wp-members-sidebar.php:294 wp-members-sidebar.php:333
 msgid "Login Status"
-msgstr "Stato della connessione"
+msgstr "Connessione"
 
 #: wp-members-sidebar.php:299
 msgid "Title:"
@@ -1198,7 +1194,7 @@ msgstr "Città"
 
 #: wp-members-install.php:54
 msgid "State"
-msgstr "Regione"
+msgstr "Provincia"
 
 #: wp-members-install.php:55
 msgid "Zip"
@@ -1234,7 +1230,7 @@ msgstr "Biografia"
 
 #: wp-members-install.php:64 wp-members-install.php:211
 msgid "TOS"
-msgstr "TOS ( Condizioni di Servizio)"
+msgstr "Termini e Condizioni"
 
 #: Error message dialog strings wp-members-install.php:96
 #, fuzzy
@@ -1253,8 +1249,8 @@ msgstr "Spiacenti, ma il nome scelto é già in uso. Prova con un altro."
 msgid ""
 "Sorry, that email address already has an account.<br />Please try another."
 msgstr ""
-"Spiacenti, ma l'indirizzo email immesso é già collegato a un account<br/> "
-"Prova con un altro."
+"Spiacenti, ma l'indirizzo email immesso é già in uso.<br/> Prova con un "
+"altro."
 
 #: wp-members-install.php:99
 #, fuzzy
@@ -1278,7 +1274,7 @@ msgid ""
 "Password successfully changed!<br /><br />You will need to re-login with "
 "your new password."
 msgstr ""
-"La password é stata modificata!<br /><br /> E' necessario rieffettuare "
+"La password é stata modificata!<br ><br > È necessario rieffettuare "
 "l'accesso con la nuova password."
 
 #: wp-members-install.php:103
